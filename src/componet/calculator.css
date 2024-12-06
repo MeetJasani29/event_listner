@@ -1,0 +1,59 @@
+input{
+    width: 215px;
+    height: 45px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+body{
+    background: #B79891;
+    background: -webkit-linear-gradient(to right, #94716B, #B79891); 
+    background: linear-gradient(to right, #94716B, #B79891); 
+    
+
+}
+.container{
+    background-color: #1d1c1c7d;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.icone{
+    color: white;
+    background-color:#B79891;
+    width: 50px;
+    height: 40px;
+    font-size: 13px;
+   margin  :5px 0 0 5px;
+   border: none;
+   transition: all .2s linear;
+}
+.icone:hover{
+    background-color:#94716B ;
+    
+}
+.number{
+    width: 50px;
+    height: 40px;
+    margin: 6px  0  0  5px;
+    background-color: rgb(54 47 47);
+    color: white;
+    border: none;
+    transition: all .2s linear;
+}
+.number:hover{
+    background-color:#B79891 ;
+}
+.equal{
+    width: 105px;
+    height: 40px;
+    background-color: #94716B;
+    margin: 5px  0px  0  5px;
+    font-size: 15px;
+    border: none;
+    transition: all .2s linear;
+}
+.equal:hover{
+    background-color: #B79891;
+}
